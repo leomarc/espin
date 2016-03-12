@@ -36,7 +36,15 @@
 <!-- Primary Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+<div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+    <span class="title-bar-title">Off-Canvas Test</span>
+  </div>
+</div>
+
+
+<!-- <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
   <button class="menu-icon" type="button" data-toggle></button>
   <div class="title-bar-title">Menu</div>
 </div>
@@ -45,8 +53,7 @@
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li><a href="index.html">Home</a></li>
-      <li>
-        <a href="background.html">Background</a>
+      <li><a href="background.html">Background</a>
         <ul class="menu">
           <li><a href="background.html#employment">Professional Employment</a></li>
           <li><a href="background.html#education">Education</a></li>
@@ -64,7 +71,7 @@
       <li><a href="links.html">Links</a></li>
     </ul>
   </div>
-</div>
+</div> -->
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -239,5 +246,8 @@
 <script src="js/vendor/what-input.min.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+  $(document).foundation();
+</script>
 </body>
 </html>
