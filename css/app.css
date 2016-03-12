@@ -12,6 +12,10 @@ body {
   font-family: 'Alegreya', serif;  
 }
 
+.off-canvas-content {
+  background: transparent;
+}
+
 .main {
   background-color: #ececec;
   padding: 5rem 2rem;
