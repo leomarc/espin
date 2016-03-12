@@ -1,5 +1,4 @@
-* Custom
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 html { 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,8 +8,14 @@ html {
 
 body {
   background: transparent;
+  font-family: 'Alegreya', serif;
+}
+
+h1 {
   font-family: 'Alegreya', serif;  
 }
+
+  /*font-family: "Alegreya Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 
 .off-canvas-content {
   background: transparent;
