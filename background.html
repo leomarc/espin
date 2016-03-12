@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Oliva Espin - Background</title>
   <meta name="description" content="feminist psychotherapy, feminist psychology, psychology, women's studies, feminist studies, women's issues, psychology of women, american psychological association, apa, san diego state university, women's studies, psychology of women, feminist theory, women saints, feminist theology, immigrant women, refugee women, sexuality, narrative psychology, qualitative research, Latina women, immigration and sexuality, immigration and gender roles, Latina healers, privilege and oppression, female saints">
   <meta name="author" content="">
@@ -19,8 +20,8 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
   <style>
     html {background: url(images/bg-027.jpg) no-repeat center center fixed;}
   </style>
@@ -34,37 +35,45 @@
 
 <!-- Primary Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="navigation">
-  <nav>
-    <ul>
+
+<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="main-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
       <li><a href="index.html">Home</a></li>
-      <li><a href="background.html">Background</a></li>
+      <li>
+        <a href="background.html">Background</a>
+        <ul class="menu">
+          <li><a href="background.html#employment">Professional Employment</a></li>
+          <li><a href="background.html#education">Education</a></li>
+          <li><a href="background.html#honors">Honors and Awards</a></li>
+          <li><a href="background.html#consultation">Consultation and Training</a></li>
+          <li><a href="background.html#activities">Professional Activities</a></li>
+          <li><a href="background.html#publications">Selected Publications</a></li>
+          <li><a href="background.html#papers">Selected Papers</a></li>
+        </ul>
+      </li>
       <li><a href="books.html">Books</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
       <li><a href="reprints.html">Online Reprints</a></li>
       <li><a href="links.html">Links</a></li>
-  </nav>
+    </ul>
+  </div>
 </div>
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
+
 <div class="row">
-	<div class="one column"></div>
-	<div class="ten columns main">
+	<div class="large-2 column">&nbsp;</div>
+	<div class="large-8 columns main">
 
     <h1>Background</h1>
-
-    <ul>
-    	<li><a href="#employment">Professional Employment</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#honors">Honors and Awards</a></li>
-      <li><a href="#consultation">Consultation and Training</a></li>
-      <li><a href="#activities">Professional Activities</a></li>
-  	  <li><a href="#publications">Selected Publications</a></li>
-    	<li><a href="#papers">Selected Papers Presented at Professional Meetings</a></li>
-    </ul>
 
     <a name="employment"></a><h2>Professional Employment</h2>
     <p>1990-2007 Professor, Department of Women's Studies, San Diego State University. 
@@ -221,11 +230,14 @@
     <p>(1987, July). <em>A longitudinal study on the psychological development of Latin American women</em>. Interamerican Congress of Psychology, Havana, Cuba.</p>
 
   </div>
-	<div class="one column"></div>
-</div>
+	<div class="large-2 column">&nbsp;</div>
 </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/what-input.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

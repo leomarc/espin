@@ -1,0 +1,31 @@
+* Custom
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+  font-family: 'Alegreya', serif;  
+}
+
+.main {
+  background-color: #ececec;
+  padding: 5rem 2rem;
+}
+
+#main-menu ul li a {
+  color: #fff;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #333;
+}
+
+.dropdown.menu .submenu {
+  background-color: #333;
+  text-align: left;
+}
