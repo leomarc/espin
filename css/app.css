@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: transparent;
+  background: #aaa;
   font-family: 'Alegreya', serif;
 }
 
@@ -16,6 +16,9 @@ h1 {
 }
 
   /*font-family: "Alegreya Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+
+section {
+}
 
 .off-canvas-content {
   background: transparent;
