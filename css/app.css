@@ -23,6 +23,10 @@ p {
   font-size: 1.2rem;
 }
 
+blockquote, blockquote p {
+  color: #333;
+}
+
 .logotype {
   color: #fff;
 }
