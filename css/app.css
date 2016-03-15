@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #cdc;
+  background: #dfdfdf;
   font-family: 'Alegreya', serif;
 }
 
@@ -21,6 +21,10 @@ h2, figcaption {
 
 p {
   font-size: 1.2rem;
+}
+
+.logotype {
+  color: #fff;
 }
 
 .off-canvas-content {
