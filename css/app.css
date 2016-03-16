@@ -33,6 +33,7 @@ blockquote, blockquote p {
 
 .cover {
   float: left;
+  margin-left: 0;
 }
 
 .off-canvas-content {
