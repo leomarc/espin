@@ -46,6 +46,8 @@ figure {
 
 figcaption {
   background-color: #fff;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
 }
 
 .top-bar a {
