@@ -66,6 +66,7 @@ figcaption {
   font-size: 2rem;
   line-height: 1;
   text-align: center;
+  display: none;
 }
 
 hr.secondary {
