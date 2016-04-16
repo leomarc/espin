@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Off-Canvas Test</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+  </head>
+  <body>
+
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+    <!-- off-canvas title bar for 'small' screen -->
+    <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+        <span class="title-bar-title">Oliva Espin</span>
+      </div>
+    </div>
+
+    <!-- off-canvas left menu -->
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+      <ul class="vertical dropdown menu" data-dropdown-menu>
+        <li><a href="background.html">Background</a></li>
+
+          <li><a href="background.html#employment">Professional Employment</a></li>
+          <li><a href="background.html#education">Education</a></li>
+          <li><a href="background.html#honors">Honors and Awards</a></li>
+          <li><a href="background.html#consultation">Consultation and Training</a></li>
+          <li><a href="background.html#activities">Professional Activities</a></li>
+          <li><a href="background.html#publications">Selected Publications</a></li>
+          <li><a href="background.html#papers">Selected Papers</a></li>
+
+        <li><a href="books.html">Books</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
+        <li><a href="reprints.html">Online Reprints</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </div>
+
+    <!-- "wider" top-bar menu for 'medium' and up -->
+    <div id="widemenu" class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Oliva Espin</li>
+          <li class="has-submenu">
+            <a href="background.html">Background</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="background.html#employment">Professional Employment</a></li>
+              <li><a href="background.html#education">Education</a></li>
+              <li><a href="background.html#honors">Honors and Awards</a></li>
+              <li><a href="background.html#consultation">Consultation and Training</a></li>
+              <li><a href="background.html#activities">Professional Activities</a></li>
+              <li><a href="background.html#publications">Selected Publications</a></li>
+              <li><a href="background.html#papers">Selected Papers</a></li>
+            </ul>
+          </li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
+          <li><a href="reprints.html">Online Reprints</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- original content goes in this container -->
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="row column">
+        <img src="http://placehold.it/2000x3000" alt="" />
+      </div>
+    </div>
+
+  <!-- close wrapper, no more content after this -->
+  </div>
+</div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>

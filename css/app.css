@@ -1,0 +1,146 @@
+
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: url(../images/bg-tile-01.jpg) repeat;
+  font-family: 'Alegreya', serif;
+}
+
+a {
+  color: red;
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Alegreya', serif;
+  line-height: 1;
+}
+
+h3 {
+  line-height: 1;
+}
+
+h4 {
+  font-family: "Alegreya Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-variant: small-caps;
+}
+
+figcaption, .button {
+  font-family: "Alegreya Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+blockquote, blockquote p {
+  color: #333;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure {
+  border: 10px solid #fff;
+  border-bottom: 25px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+figcaption {
+  background-color: #fff;
+  padding-top: 0.25em;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  display: none; /*temporary until captions are written*/
+}
+
+figcaption.mp-show {display: block;}
+
+hr.secondary {
+  position: relative;
+  top: 15px;
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}
+
+hr.secondary:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+.top-bar a {
+  color: #fff;
+}
+
+.button {
+  font-family: "Alegreya Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+  background-color: #514a33;
+}
+
+.logotype {
+  color: #fff;
+}
+
+.cover {
+  float: left;
+  margin-top: 0.5em;
+  margin-left: 0;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border: 1px solid #777;
+}
+
+.off-canvas-content {
+  background: transparent;
+}
+
+.off-canvas-subnav {
+  margin-left: 1.5em;
+  font-style: italic;
+}
+
+.main {
+  background-color: #e8e7e3;
+  padding: 2rem 2rem;
+}
+
+#main-menu ul li a {
+  color: #fff;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #383015;
+}
+
+.dropdown.menu .submenu {
+  background-color: #383015;
+  text-align: left;
+}

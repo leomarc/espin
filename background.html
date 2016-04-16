@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Oliva Espin - Background</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Oliva Esp&iacute;n - Background</title>
   <meta name="description" content="feminist psychotherapy, feminist psychology, psychology, women's studies, feminist studies, women's issues, psychology of women, american psychological association, apa, san diego state university, women's studies, psychology of women, feminist theory, women saints, feminist theology, immigrant women, refugee women, sexuality, narrative psychology, qualitative research, Latina women, immigration and sexuality, immigration and gender roles, Latina healers, privilege and oppression, female saints">
-  <meta name="author" content="">
+  <meta name="author" content="Oliva Espin">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -16,14 +17,12 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic|Alegreya+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Caveat&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <style>
-    html {background: url(images/bg-027.jpg) no-repeat center center fixed;}
-  </style>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,200 +31,403 @@
 </head>
 <body>
 
-<!-- Primary Navigation
+<!-- Begin Off-Canvas Wrapper
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="navigation">
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="background.html">Background</a></li>
-      <li><a href="books.html">Books</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
-      <li><a href="reprints.html">Online Reprints</a></li>
-      <li><a href="links.html">Links</a></li>
-  </nav>
-</div>
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-<div class="row">
-	<div class="one column"></div>
-	<div class="ten columns main">
+    <!-- Navigation Elements
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <h1>Background</h1>
+    <!-- off-canvas title bar for 'small' screen -->
+    <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+        <span class="title-bar-title logotype">Oliva Esp&iacute;n</span>
+      </div>
+    </div>
 
-    <ul>
-    	<li><a href="#employment">Professional Employment</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#honors">Honors and Awards</a></li>
-      <li><a href="#consultation">Consultation and Training</a></li>
-      <li><a href="#activities">Professional Activities</a></li>
-  	  <li><a href="#publications">Selected Publications</a></li>
-    	<li><a href="#papers">Selected Papers Presented at Professional Meetings</a></li>
-    </ul>
+    <!-- off-canvas left menu -->
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+      <ul class="vertical dropdown menu" data-dropdown-menu>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="background.html">Background</a></li>
+          <li><a href="background.html#employment">Professional Employment</a></li>
+          <li><a href="background.html#education">Education</a></li>
+          <li><a href="background.html#honors">Honors and Awards</a></li>
+          <li><a href="background.html#consultation">Consultation and Training</a></li>
+          <li><a href="background.html#activities">Professional Activities</a></li>
+          <li><a href="background.html#publications">Selected Publications</a></li>
+          <li><a href="background.html#papers">Selected Papers</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
+        <li><a href="reprints.html">Online Reprints</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </div>
 
-    <a name="employment"></a><h2>Professional Employment</h2>
-    <p>1990-2007 Professor, Department of Women's Studies, San Diego State University. 
-    <p>1992-2003 Core faculty, Alliant International University (California School of Professional Psychology), San Diego. </p>
-    <p>1986-1990 Associate Professor and Director, Counseling Psychology Program, Department of Education, Tufts University.</p>
-    <p>1975-1986 Associate Clinical Professor, Counseling Psychology Program, School of Education, Boston University. (Also: Coordinator of Special Projects, International Student Office, 1984-86).</p>
-    <p>1974-1990 Psychotherapist. (Massachusetts State License as Health Provider Psychologist).</p>
-    <p>1974-1975 Interim Assistant Professor, Department of Counselor Education, McGill University, Montreal, Canada.</p>
-    <p>1970 Instructor in Social and General Psychology, Universidad de Costa Rica, San Jos&eacute;, Costa Rica.</p>
-    <p>1964-1969 Instructor in Psychology and Religion, St. Clare College, San Jos&eacute;, Costa Rica.</p>
+    <!-- "wider" top-bar menu for 'medium' and up -->
+    <div id="widemenu" class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text logotype">Oliva Esp&iacute;n</li>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-submenu">
+            <a href="background.html">Background</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="background.html#employment">Professional Employment</a></li>
+              <li><a href="background.html#education">Education</a></li>
+              <li><a href="background.html#honors">Honors and Awards</a></li>
+              <li><a href="background.html#consultation">Consultation and Training</a></li>
+              <li><a href="background.html#activities">Professional Activities</a></li>
+              <li><a href="background.html#publications">Selected Publications</a></li>
+              <li><a href="background.html#papers">Selected Papers</a></li>
+            </ul>
+          </li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="seminars.html">Workshops &amp; Seminars</a></li>
+          <li><a href="reprints.html">Online Reprints</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <!-- education -->
+    <!-- Begin Content
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="off-canvas-content" data-off-canvas-content>
 
-    <a name="education"></a><h2>Education</h2>
-    <p>Fellow, Harvard University (1981-83)</p>
-    <p>Ph.D. University of Florida (1974)</p>
-    <p>B.A. Universidad de Costa Rica (1969)</p>
+      <div class="row">
+        <div class="medium-2 large-2 column">
+          &nbsp;
+        </div>
+      	<div class="medium-8 large-8 columns main">
 
-    <!-- selected honors, honors and awards -->
+          <h1>Background</h1>
 
-    <a name="honors"></a><h2>Selected Honors &amp; Awards</h2>
-    <p>2010 American Psychological Association (Division 52) Outstanding International Psychologist</p>
-    <p>2010 Fulbright Distinguished Chair in Gender Studies &ndash; University of Klagenfurt, Austria</p>
-    <p>2008 Association for Women in  Psychology &ndash; Christine Ladd Franklin Award for long-term contributions  to Feminist  Psychology</p>
-    <p>2006 American Psychological Association (Division 52) Denmark-Reuder Award for Outstanding International Contributions to the Psychology of Women and Gender</p>
-    <p>2006 American Psychological Foundation - Rosallee Weiss Award for Outstanding Leaders in Psychology</p>
-    <p>2005 Association for Religion in Intellectual Life &ndash; Coolidge Fellowship</p>
-    <p>2005 American Psychological Association &#8211; Presidential Citation for life-long work on Multicultural Issues in Psychology</p>
-    <p>2005 National Multicultural Conference and Summit (of the APA) &#8211; Recognition as an Elder for life-long work on Multicultural Issues in Psychology</p>
-    <p>2004 National Latino/a Psychological Association &#8211; Distinguished Psychologist Award for life-long work on the psychology of Latinas</p>
-    <p>2002 Feminist Therapy Institute - Honored as one of the pioneers of the field</p>
-    <p>2001 Association for Women in Psychology - Distinguished Career Award</p>
-    <p>1999 &amp; 1993 Association for Women in Psychology - Women of Color Psychologies Award</p>
-    <p>1999 American Psychological Association - CLGBC - Outstanding Achievement Award</p>
-    <p>1994 British Psychological Society - Fellowship</p>
-    <p>1992 American Psychological Association - One of 100 women in the Women's Heritage Exhibit (Created to celebrate Women's contributions to psychology for the 100th Anniversary of the APA).</p>
-    <p>1991 American Psychological Association - Award for Distinguished Professional Contribution to Public Service.<br>
-    <p>1988 American Psychological Association - Fellow status</p>
-    <p>1981-83 National Institute of Mental Health - Fellowship for Research at Harvard University</p>
+          <hr class="primary">
 
-    <!-- consultation and training -->
+          <!-- employment -->
+          <section>
+            <a name="employment"></a><h2>Professional Employment</h2>
+            <p>1990-2007 Professor, Department of Women's Studies, San Diego State University. 
+            <p>1992-2003 Core faculty, Alliant International University (California School of Professional Psychology), San Diego. </p>
+            <p>1986-1990 Associate Professor and Director, Counseling Psychology Program, Department of Education, Tufts University.</p>
+            <p>1975-1986 Associate Clinical Professor, Counseling Psychology Program, School of Education, Boston University. (Also: Coordinator of Special Projects, International Student Office, 1984-86).</p>
+            <p>1974-1990 Psychotherapist. (Massachusetts State License as Health Provider Psychologist).</p>
+            <p>1974-1975 Interim Assistant Professor, Department of Counselor Education, McGill University, Montreal, Canada.</p>
+            <p>1970 Instructor in Social and General Psychology, Universidad de Costa Rica, San Jos&eacute;, Costa Rica.</p>
+            <p>1964-1969 Instructor in Psychology and Religion, St. Clare College, San Jos&eacute;, Costa Rica.</p>
+          </section>
 
-    <a name="consultation"></a><h2>Selected Consultation &amp; Trainings</h2>
-    <p><strong>Qualitative Research Consultant</strong>, Center for Bioethics, University of Pennsylvania (2002-2005).</p>
-    <p><strong>CEU Workshops on Qualitative Research for Psychologists and Language in Therapy with Bilinguals</strong>, California School of Professional Psychology.</p>
-    <p><strong>Academic Specialist (USIA/Fulbright)</strong>, Women's Studies continuing education courses for the faculty of the Universidad de Costa Rica, San Jose, Costa Rica (1989).</p>
-    <p><strong>Core faculty, Harvard Medical School, Department of Continuing Education</strong>, Boston, MA. Courses on Women (1988 & 1990); Course on Psychotherapy of Diversity (1989).</p>
+        </div>
+        <div class="medium-2 large-2 column">
+          &nbsp;
+        </div>
+      </div>
 
+      <!-- photo block - 1 photo, full width -->
+      <div class="row column">
+        <figure>
+          <img src="images/wide-skyline.jpg" alt="" />
+          <figcaption>This is a caption for this photo.</figcaption>
+        </figure>
+      </div>
 
-    <!-- Selected Workshops -->
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">
 
-    <a name="activities"></a><h2>Other Professional Activities</h2>
-    <p><strong>Fulbright Distinguished Chair in Gender Studies</strong> &ndash; University of Klagenfurt, Austria (2010)</p>
-    <p><strong>SPSSI SAGES Grant</strong>. (American Psychological Association, Division 9) Theater as a Pedagogical Shortcut to Encourage the Adaptation of Immigrant Girls and Adolescents to their New Environment, Madrid, Spain (2010).</p>
-    <p><strong>Co-Coordinator</strong>, Association for Women in Psychology, National Meeting (2008)</p>
-    <p><strong>Visiting Scholar</strong>, Universidad del Valle, Guatemala. Course on Gender Psychology and Psychotherapy (2007)</p>
-    <p><strong>Faculty Advisor</strong>, Project ESSEA: Mental heath and advocacy program for immigrants and refugees from Ethiopia, Somalia, Sudan and Eritrea (CSPP Foundation, 9/00-12/01).</p>
-    <p><strong>Director</strong>, SDSU Paris Semester (1999).</p>
-    <p><strong>Visiting Scholar</strong>, Institute for Research on Women and Gender, Stanford University, Stanford, CA (2/95-7/95).</p>
-    <p><strong>Visiting Scholar</strong>, Northwest Center for Research on Women, University of Washington, Seattle, WA (9/94-1/95).</p>
-    <p><strong>Visiting Scholar</strong>, University of Innsbruck, Austria (1995).</p>
-    <p><strong>Board of Regents</strong>, St. Mary's College, Notre Dame, Indiana (1985-1988).</p>
+          <!-- education -->
+          <section>
+            <a name="education"></a><h2>Education</h2>
+            <p>Fellow, Harvard University (1981-83)</p>
+            <p>Ph.D. University of Florida (1974)</p>
+            <p>B.A. Universidad de Costa Rica (1969)</p>
+          </section>
 
-    <!-- selected publications -->
+          <!-- selected honors, honors and awards -->
 
-    <a name="publications"></a><h2>Selected Publications</h2>
+          <a name="honors"></a><h2>Selected Honors &amp; Awards</h2>
+          <p>2010 American Psychological Association (Division 52) Outstanding International Psychologist</p>
+          <p>2010 Fulbright Distinguished Chair in Gender Studies &ndash; University of Klagenfurt, Austria</p>
+          <p>2008 Association for Women in  Psychology &ndash; Christine Ladd Franklin Award for long-term contributions  to Feminist  Psychology</p>
+          <p>2006 American Psychological Association (Division 52) Denmark-Reuder Award for Outstanding International Contributions to the Psychology of Women and Gender</p>
+          <p>2006 American Psychological Foundation - Rosallee Weiss Award for Outstanding Leaders in Psychology</p>
+          <p>2005 Association for Religion in Intellectual Life &ndash; Coolidge Fellowship</p>
+          <p>2005 American Psychological Association &#8211; Presidential Citation for life-long work on Multicultural Issues in Psychology</p>
+          <p>2005 National Multicultural Conference and Summit (of the APA) &#8211; Recognition as an Elder for life-long work on Multicultural Issues in Psychology</p>
+          <p>2004 National Latino/a Psychological Association &#8211; Distinguished Psychologist Award for life-long work on the psychology of Latinas</p>
+          <p>2002 Feminist Therapy Institute - Honored as one of the pioneers of the field</p>
+          <p>2001 Association for Women in Psychology - Distinguished Career Award</p>
+          <p>1999 &amp; 1993 Association for Women in Psychology - Women of Color Psychologies Award</p>
+          <p>1999 American Psychological Association - CLGBC - Outstanding Achievement Award</p>
+          <p>1994 British Psychological Society - Fellowship</p>
+          <p>1992 American Psychological Association - One of 100 women in the Women's Heritage Exhibit (Created to celebrate Women's contributions to psychology for the 100th Anniversary of the APA).</p>
+          <p>1991 American Psychological Association - Award for Distinguished Professional Contribution to Public Service.<br>
+          <p>1988 American Psychological Association - Fellow status</p>
+          <p>1981-83 National Institute of Mental Health - Fellowship for Research at Harvard University</p>
 
-    <p>With A. Dottolo. <em>Gendered Journeys</em>, NY: Palgrave Macmillan, 2015.</p>
-    <p><em>Women Crossing Boundaries: A Psychology of Immigration and the Transformations of Sexuality</em>. NY: Routledge, 1999.</p>
-    <p><em>Latina Realities: Essays on Healing, Migration, and Sexuality</em>. Boulder, CO: Westview Press, 1997.</p>
-    <p><em>Latina Healers: Lives of Power and Tradition</em>. Encino, CA: Floricanto Press, 1996.</p>
-    <p>With E. Cole &amp; E. Rothblum. <em>Refugee Women and their Mental Health: Shattered Societies, Shattered Lives</em>. NY: Harrington Park Press, 1993.</p>
-    <p>With D. Kawahara. <em>Feminist Reflections in Growth and Transformations: Asian-American Women in Therapy</em>. NY: Haworth Press, 2007.</p>
-    <p>With D. Kawahara. <em>Feminist Therapy with Latina Women: Personal and Social Voices</em>. N.Y.: Routledge, 2012.</p>
-    <p>With A. Mahoney. <em>Sin or Salvation: The Relationship Between Sexuality and Spirituality in Psychotherapy</em>. NY: Routledge, 2009.</p>
+        </div>
+        <div class="medium-2 large-2 column">&nbsp;</div>
+      </div>
 
-    <!-- More on books -->
+      <!-- photo block - 2 photos, side-by-side -->
+      <div class="row">
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/santiago-cathedral.jpg" alt="" />
+            <figcaption>This is a caption for photo A.</figcaption>
+          </figure>
+        </div>
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/grandparents-house-front.jpg" alt="" />
+            <figcaption>This is a caption for photo B.</figcaption>
+          </figure>
+        </div>
+      </div>
 
-    <h3>Chapters in Books</h3>
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">       
 
-    <p>"Saints in the Cuban heat." In I. Lara &amp; E. Facio (Eds.). <em>Fleshing the spirit, spiriting the flesh: Expressing our spiritualities</em>, 2014.</p>
-    <p>"The interplay of <em>criollo</em> identity, colonial politics, and gender in the enduring popular appeal of Rose of Lima." In P. Golinelli (Ed.) <em>Agiografia e culture popolari /Hagiography and popular culture</em> (pp.355-366). Universita degli Studi di Verona, Verona, Italy, 2012.</p>
-    <p>"Female Saints: Submissive or Rebellious? Feminists in Disguise?" In D. Eibl, M. Jarosch, U. A. Schneider, & A. Steinsiek. (Eds.) <em>Innsbrucker Gender Lectures I</em> (pp.135-164). Innsbruck, Austria: Innsbruck University Press, 2011.</p>
-    <p>"My &ldquo;friendship&rdquo; with women saints as a source of spirituality." In  C. Rayburn &amp; L. Comas-D&iacute;az (Eds.). <em>WomanSoul: The inner life  of women&rsquo;s spirituality</em>  (pp.71-84). Westport, CT: Praeger, 2008.</p>
-    <p>"Gender, sexuality, language and migration." In R. Mahalingam (Ed.).&nbsp; <em>Cultural psychology of immigrants</em>. (pp.241-258 ). Mahwah, NJ: Lawrence Erlbaum, 2006.</p>
-    <p>"Crossing borders and boundaries: Gender and sexuality in the life narratives of immigrant women." In E. Olstein &amp; G. Horenczyk (Eds.) <em>Language, identity, and immigration</em>. (pp. 123-140) Jerusalem, Israel: Magnes Press, >2000.</p>
-    <p>"Feminist Approaches [to therapy with Women of Color." In L. Comas-Diaz &amp; B. Greene (Eds.) <em>Women of Color and mental health</em>. (pp. 265-286) NY: Guilford Press, 1994.</p>
-    <p>"Traumatic socio-historical conditions and adolescent development: Letters from V." In C.E. Franz &amp; Stewart, A.J. (Eds.) <em>Women creating lives: Identities, resilience, and resistance</em>. (pp. 187-198) Boulder, CO: Westview Press, 1994.</p>
-    <p>"Roots uprooted: Autobiographical reflections on the psychological experience of migration." In F. Alegria &amp; J. Ruffinelli (Eds.) <em>Paradise lost or gained: The literature of Hispanic exile</em>. (pp. 151-163) Houston, TX: Arte Publico Press, 1991.</p>
-    <p>"Issues of identity in the psychology of Latina lesbian women." In <em>Lesbian Psychologies</em>. (pp. 35-55) Urbana: University of Illinois Press, 1987.</p>
-    <p>"Cultural and historical influences on sexuality in Hispanic/Latin women: Implications for psychotherapy." In C. Vance (Ed.) <em>Pleasure and Danger: Exploring Female Sexuality</em>. (pp. 149-164) London, England: Routledge and Kegan Paul, 1984.</p>
-    <p>With M.A. Gawelek. "Women's diversity: Ethnicity, race, class and gender in theories of feminist psychology." In L.S. Brown &amp; M. Ballou (Eds.) <em>Personality and psychopathology: Feminist reappraisals</em>. (pp. 88-107) NY: Guilford Press, 1992.</p>
-    <p>With O. Yakushko, "The experience of immigrant and refugee women: Psychological issues." In H. Landrine &amp; N.F. Russo (Eds.). <em>Handbook of diversity in feminist psychology</em>. NY: Springer, 2009.</p>
+          <!-- consultation and training -->
 
-    <!-- articles in journals -->
+          <a name="consultation"></a><h2>Selected Consultation &amp; Trainings</h2>
+          <p><strong>Qualitative Research Consultant</strong>, Center for Bioethics, University of Pennsylvania (2002-2005).</p>
+          <p><strong>CEU Workshops on Qualitative Research for Psychologists and Language in Therapy with Bilinguals</strong>, California School of Professional Psychology.</p>
+          <p><strong>Academic Specialist (USIA/Fulbright)</strong>, Women's Studies continuing education courses for the faculty of the Universidad de Costa Rica, San Jose, Costa Rica (1989).</p>
+          <p><strong>Core faculty, Harvard Medical School, Department of Continuing Education</strong>, Boston, MA. Courses on Women (1988 & 1990); Course on Psychotherapy of Diversity (1989).</p>
 
-    <h3>Articles in Journals</h3>
+          <!-- professional activities -->
 
-    <p>"Making Love in English" Language in Psychotherapy with Immigrant Women. <em>Women and Therapy</em> (Special issue on therapy with immigrant women), 2013.</p>
-    <p>"An Illness We Catch From American Women?" The Multiple Identities of Latina Lesbians, <em>Women and Therapy</em>, (35)1-2, 45-56, 2012.</p>
-    <p>"The enduring popularity of Rosa de Lima, first saint of the Americas: Women, bodies, sainthood, and national identity." <em>Cross Currents</em>, 61(1), 6-27. Spring. (Journal of the Association for Religion in Intellectual Life), 2011.</p>
-    <p>'"The destiny of this people is my own': Edith Stein&rsquo;s paradoxical sainthood." <em>Cross Currents, 58</em> (1), 117-148. Spring. (Journal of the Association for Religion in Intellectual Life), 2008.</p>
-    <p>"How Joan of Arc saved my life." <em>Psychotherapy Networker, 28</em>(3), 95-96, 2004.</p>
-    <p>"The role of gender and emotion in women's experience of migration." <em>Innovation: The European Journal of Social Sciences, 10</em> (4), 445-455, 1997.</p>
-    <p>"'Race,' racism, and sexuality in the life narratives of immigrant women." <em>Feminism and Psychology, 5</em> (2), 287-302, 1995.</p>
-    <p>"Giving voice to silence: The psychologist as witness." <em>American Psychologist, 48</em> (4), 408-414, 1993.</p>
-    <p>"Roots uprooted: The psychological effect of historical dislocation on the lives of refugee women." <em>Women and Therapy, 13</em> (1/2), 19-32, 1992.</p>
-    <p>"Spiritual power and the mundane world: Hispanic female healers in the urban U.S. communities." <em>Women Studies Quarterly, 16</em> (3-4), 33-47, 1988.</p>
-    <p>"Psychological impact of migration on Latinas: Implications for psychotheraputic practice." <em>Psychology of Women Quarterly, 11</em> (4), 489-503, 1987.</p>
-    <p>With Stewart, A.J. &amp; Gomez, C. "Letters from V.: Adolescent personality development in sociohistorical context." <em>Journal of Personality, 58</em> (2), 347-364, 1990.</p>
+          <a name="activities"></a><h2>Other Professional Activities</h2>
+          <p><strong>Fulbright Distinguished Chair in Gender Studies</strong> &ndash; University of Klagenfurt, Austria (2010)</p>
+          <p><strong>SPSSI SAGES Grant</strong>. (American Psychological Association, Division 9) Theater as a Pedagogical Shortcut to Encourage the Adaptation of Immigrant Girls and Adolescents to their New Environment, Madrid, Spain (2010).</p>
+          <p><strong>Co-Coordinator</strong>, Association for Women in Psychology, National Meeting (2008)</p>
+          <p><strong>Visiting Scholar</strong>, Universidad del Valle, Guatemala. Course on Gender Psychology and Psychotherapy (2007)</p>
+          <p><strong>Faculty Advisor</strong>, Project ESSEA: Mental heath and advocacy program for immigrants and refugees from Ethiopia, Somalia, Sudan and Eritrea (CSPP Foundation, 9/00-12/01).</p>
+          <p><strong>Director</strong>, SDSU Paris Semester (1999).</p>
+          <p><strong>Visiting Scholar</strong>, Institute for Research on Women and Gender, Stanford University, Stanford, CA (2/95-7/95).</p>
+          <p><strong>Visiting Scholar</strong>, Northwest Center for Research on Women, University of Washington, Seattle, WA (9/94-1/95).</p>
+          <p><strong>Visiting Scholar</strong>, University of Innsbruck, Austria (1995).</p>
+          <p><strong>Board of Regents</strong>, St. Mary's College, Notre Dame, Indiana (1985-1988).</p>
 
-    <!-- conferences, selected papers presented at professional meetings -->
+        </div>
+        <div class="medium-2 large-2 column">&nbsp;</div>
+      </div>
 
-    <a name="papers"></a><h2>Selected Papers Presented at Professional Meetings</h2>
-    <h3>National</h3>
+      <!-- photo block - 1 photo, full width -->
+      <div class="row column">
+        <figure>
+          <img src="images/wide-courtyard.jpg" alt="" />
+          <figcaption>This is a caption.</figcaption>
+        </figure>
+      </div>
 
-    <p>(2007, March). <em>Memory, identity, and&nbsp; the feminist self.</em> Association for Women in Psychology. San Francisco, California.</p>
-    <p>(2006, August). <em>Psychotherapy and Social Justice</em>. Rosallee Weiss Award Address. American Psychological Association, New Orleans, LA.</p>
-    <p>(2006, March). <em>A feminist look at the kaleidoscope of identity</em>. Association for Women in Psychology, Ann Arbor, Michigan. (Keynote address).</p>
-    <p>(2005, January). <em>The age of the cookie cutter has passed: Contradictions in identity at the core of therapeutic intervention</em>. National Multicultural Conference and Summit IV. Los Angeles, CA.</p>
-    <p>(2001, August). <em>The language of the soul: Psychotherapy with women across cultures.</em> American Psychological Association, San Francisco, CA.</p>
-    <p>(1998, June). <em>Heavenly inspirations: A psychological and feminist study of the lives of selected women saints</em>. National Women's Studies Association, Oswego, NY.</p>
-    <p>(1996, November). <em>Latina women: Sexuality, migration, and language</em>. Society for the Scientific Study of Sexuality. Houston, TX.</p>
-    <p>(1992, August). <em>Giving voice to silence: The psychologist as witness</em>. American Psychological Association, Washington, D.C. (Invited address).</p>
-    <p>(1991, August). <em>Ethnicity, race and class, and the future of feminist psychology</em>. American Psychological Association, San Francisco, CA. (Invited address).</p>
-    <p>with Dottolo, A. (1998, August). <em>Edith Stein's visions of womanhood</em> (Symposium on <em>Women Saints: Feminist and Psychological Perspectives on their Lives</em>). American Psychological Association, San Francisco, CA.</p>
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">
 
-    <!-- international -->
-    <h3>International</h3>
+          <!-- selected publications -->
 
-    <p>(2012, October). <em>"Making love in English:" The psychological impact of living in two languages.</em> Lakeland College, Tokyo, Japan.</p>
-    <p>(2010, December). <em>The Love of God as Teresa of Avila's Source of Authority.</em> University of Orebro, Sweden.</p>
-    <p>(2010, October). <em>The Interplay of Criollo Identity, Colonial Politics, and Gender in the Enduring Popular Appeal of Rose of Lima.</em> VIIth International AISSCA Conference: Hagiography and Popular Cultures. University of Verona, Italy.</p>
-    <p>(2010, October). <em>Gender Issues in the Immigration Crisis.</em> University of Calabria, Italy.</p>
-    <p>(2010, June). <em>Crossing borders and boundaries: Gender and sexuality in the life narratives of immigrant women.</em> University of Hildesheim, Germany.</p>
-    <p>(2010, June). <em>Is Domestic violence a cultural tradition?...and other questions about gender and migration.</em> U.S. Embassy and Women without Borders, Vienna, Austria.</p>
-    <p>(2010, March). <em>A Psychology of Immigrant and Refugee Women.</em> University of Klagenfurt, Austria.</p>
-    <p>(2010, March). <em>Lessons from the strengths of the marginalized.</em> International Forum on Moroccan Women - Marginalized Women and Social Insertion, Fez, Morocco.</p>
-    <p>(2010, March). <em>Female saints: Submissive or rebellious? Feminists in disguise?</em> University of Innsbruck, Austria.</p>
-    <p>(2008, July). <em>G&eacute;nero y migraci&oacute;n [Gender and migration]</em>. Mundo de Mujeres/Women&rsquo;s World Congress. Madrid, Spain.</p>
-    <p>(2007, July).&nbsp; <em>Respuestas de la psicolog&iacute;a feminista a cuestiones de migraci&oacute;n, g&eacute;nero y orientaci&oacute;n sexual [Feminist psychology responds to issues of immigration, gender, and sexual orientation]</em>. Interamerican Congress of Psychology, M&eacute;xico, DF.</p>
-    <p>(2006, November). <em>Lenguaje, G&eacute;nero y Migraci&oacute;n</em> [<em>Language, Gender, and Migration</em>]. Encuentro Nacional de Investigaci&oacute;n Educativa, Instituto Michoacano de Ciencias de la Educaci&oacute;n, Morelia, M&eacute;xico.</p>
-    <p>(2004, November). <em>Impacto de la experiencia de migraci&oacute;n en la sexualidad de las mujeres</em> [Impact of the migration experience on women's sexuality]. Universidad Complutense, Madrid, Spain.</p>
-    <p>(2004, July). <em>Global migrations and body transformations: Changes in appearance and clothing as gender markings of assimilation or resistance</em>. Feminism Contesting Globalisation Conference, University of Dublin, Ireland.</p>
-    <p>(2003, September). <em>Mujer, cuerpo y santidad en Am&eacute;rica Latina</em> [<em>Women, body, and sanctity in Latin America</em>]. Congreso Internacional &quot;Cuerpo, Saberes y Naci&oacute;n: Constituci&oacute;n de Identidad de G&eacute;nero en lo P&uacute;blico y lo Privado en Am&eacute;rica Latina&quot; [International Conference &quot;Bodies, Knowledges, and Nationhood: The Construction of Gender Identity in the Public and Private Spheres in Latin America.&quot;], Santiago de Chile.</p>
-    <p>(2003, September). <em>G&eacute;nero, derechos humanos y volencia dom&eacute;stica</em> [<em>Gender,human rights, and domestic violence</em>], Congreso Internacional sobre &#8220;Cuerpo, Saberes y Naci&oacute;n: Constituci&oacute;n de Identidad de G&eacute;nero en lo P&uacute;blico y lo Privado en Am&eacute;rica Latina [International Conference on &#8221;Bodies, Knowledges, and Nationhood: The Construction of Gender Identity in the Public and Private Spheres in Latin America.&#8221;], Santiago de Chile.</p>
-    <p>(2001, July). <em>Qualitative Research Methods in Gender Studies</em>. InterAmerican Congress of Psychology, Santiago de Chile.</p>
-    <p>(2000, July). <em>Rosa de Lima, first saint of the Americas: Women, sainthood, and community in early colonial Latin America</em>. International Hagiography Conference: "Saints and Communities", Groeningen, The Netherlands.</p>
-    <p>(1998, April). <em>Rosa de Lima and Mariana de Quito: Women, body, and sanctity in the 16th and 17th centuries</em>. Conferencia Internacional "En el Umbral del Milenio" [International Conference "At the Threshold of the Millennium"], Lima, Per&uacute;.</p>
-    <p>(1996, July). <em>The role of gender and emotion in women's experience of migration</em>. Euroconference: Identit&eacute;s Collectives et R&eacute;presentation Symbolique [Euroconference on Collective Identity and Symbolic Representation], Paris, France.</p>
-    <p>(1994, December). <em>Crossing borders and boundaries: The vicissitudes of gender, sexuality, identity, and language in the life narratives of immigrant women</em>. Multikulturelt samfund og etnisk identitet Konference [Conference on Multicultural Research in Ethnic Identity], University of Odense and Samkvind [Center form Women's Studies in the Social and Legal Sciences], University of Copenhagen, Denmark.</p>
-    <p>(1994, June). <em>Crossing borders and boundaries: Life narratives of immigrant women and the development of identity</em>. Conference on Immigration, Language Acquisition, and Social Integration, Jerusalem, Israel.</p>
-    <p>(1989, July). <em>Migration and psychotherapy: The experience of Latin American women</em>. Interamerican Congress of Psychology, Buenos Aires, Argentina.</p>
-    <p>(1987, July). <em>A longitudinal study on the psychological development of Latin American women</em>. Interamerican Congress of Psychology, Havana, Cuba.</p>
+          <a name="publications"></a><h2>Selected Publications</h2>
 
+          <p>With A. Dottolo. <em>Gendered Journeys</em>, NY: Palgrave Macmillan, 2015.</p>
+          <p><em>Women Crossing Boundaries: A Psychology of Immigration and the Transformations of Sexuality</em>. NY: Routledge, 1999.</p>
+          <p><em>Latina Realities: Essays on Healing, Migration, and Sexuality</em>. Boulder, CO: Westview Press, 1997.</p>
+          <p><em>Latina Healers: Lives of Power and Tradition</em>. Encino, CA: Floricanto Press, 1996.</p>
+          <p>With E. Cole &amp; E. Rothblum. <em>Refugee Women and their Mental Health: Shattered Societies, Shattered Lives</em>. NY: Harrington Park Press, 1993.</p>
+          <p>With D. Kawahara. <em>Feminist Reflections in Growth and Transformations: Asian-American Women in Therapy</em>. NY: Haworth Press, 2007.</p>
+          <p>With D. Kawahara. <em>Feminist Therapy with Latina Women: Personal and Social Voices</em>. N.Y.: Routledge, 2012.</p>
+          <p>With A. Mahoney. <em>Sin or Salvation: The Relationship Between Sexuality and Spirituality in Psychotherapy</em>. NY: Routledge, 2009.</p>
+
+          <!-- More on books -->
+
+          <h3>Chapters in Books</h3>
+
+          <p>"A geography of memory-A psychology of place." In O.M. Esp&iacute;n &amp; A.L. Dottolo (Eds.). <em>Gendered journeys: Women, migration and feminist psychology</em> (pp. 29-51). UK: Palgrave Macmillan, 2015.</p>
+          <p>"Saints in the Cuban heat." In E. Facio &amp; I. Lara (Eds.). <em>Fleshing the Spirit: Spirituality and Activism in Chicana, Latina and Indigenous Women’s Lives</em> (pp.102-112). Tucson, AZ: University of Arizona Press, 2014.</p>
+
+<!--           <p>"Saints in the Cuban heat." In I. Lara &amp; E. Facio (Eds.). <em>Fleshing the spirit, spiriting the flesh: Expressing our spiritualities</em>, 2014.</p>
+ -->
+          <p>"The interplay of <em>criollo</em> identity, colonial politics, and gender in the enduring popular appeal of Rose of Lima." In P. Golinelli (Ed.) <em>Agiografia e culture popolari /Hagiography and popular culture</em> (pp.355-366). Universita degli Studi di Verona, Verona, Italy, 2012.</p>
+          <p>"Female Saints: Submissive or Rebellious? Feminists in Disguise?" In D. Eibl, M. Jarosch, U. A. Schneider, & A. Steinsiek. (Eds.) <em>Innsbrucker Gender Lectures I</em> (pp.135-164). Innsbruck, Austria: Innsbruck University Press, 2011.</p>
+          <p>"My &ldquo;friendship&rdquo; with women saints as a source of spirituality." In  C. Rayburn &amp; L. Comas-D&iacute;az (Eds.). <em>WomanSoul: The inner life  of women&rsquo;s spirituality</em>  (pp.71-84). Westport, CT: Praeger, 2008.</p>
+          <p>"Gender, sexuality, language and migration." In R. Mahalingam (Ed.).&nbsp; <em>Cultural psychology of immigrants</em>. (pp.241-258 ). Mahwah, NJ: Lawrence Erlbaum, 2006.</p>
+          <p>"Crossing borders and boundaries: Gender and sexuality in the life narratives of immigrant women." In E. Olstein &amp; G. Horenczyk (Eds.) <em>Language, identity, and immigration</em>. (pp. 123-140) Jerusalem, Israel: Magnes Press, 2000.</p>
+          <p>"Feminist Approaches [to therapy with Women of Color." In L. Comas-Diaz &amp; B. Greene (Eds.) <em>Women of Color and mental health</em>. (pp. 265-286) NY: Guilford Press, 1994.</p>
+          <p>"Traumatic socio-historical conditions and adolescent development: Letters from V." In C.E. Franz &amp; Stewart, A.J. (Eds.) <em>Women creating lives: Identities, resilience, and resistance</em>. (pp. 187-198) Boulder, CO: Westview Press, 1994.</p>
+          <p>"Roots uprooted: Autobiographical reflections on the psychological experience of migration." In F. Alegria &amp; J. Ruffinelli (Eds.) <em>Paradise lost or gained: The literature of Hispanic exile</em>. (pp. 151-163) Houston, TX: Arte Publico Press, 1991.</p>
+          <p>"Issues of identity in the psychology of Latina lesbian women." In <em>Lesbian Psychologies</em>. (pp. 35-55) Urbana: University of Illinois Press, 1987.</p>
+          <p>"Cultural and historical influences on sexuality in Hispanic/Latin women: Implications for psychotherapy." In C. Vance (Ed.) <em>Pleasure and Danger: Exploring Female Sexuality</em>. (pp. 149-164) London, England: Routledge and Kegan Paul, 1984.</p>
+          <p>With M.A. Gawelek. "Women's diversity: Ethnicity, race, class and gender in theories of feminist psychology." In L.S. Brown &amp; M. Ballou (Eds.) <em>Personality and psychopathology: Feminist reappraisals</em>. (pp. 88-107) NY: Guilford Press, 1992.</p>
+          <p>With O. Yakushko, "The experience of immigrant and refugee women: Psychological issues." In H. Landrine &amp; N.F. Russo (Eds.). <em>Handbook of diversity in feminist psychology</em>. NY: Springer, 2009.</p>
+
+        </div>
+        <div class="medium-2 large-2 column">&nbsp;</div>
+      </div>
+
+      <!-- photo block - 2 photos, side-by-side -->
+      <div class="row">
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/havana-capitol-1.jpg" alt="" />
+            <figcaption>This is a caption for photo A.</figcaption>
+          </figure>
+        </div>
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/lady-of-charity.jpg" alt="" />
+            <figcaption>This is a caption for photo B.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">
+
+          <!-- articles in journals -->
+
+          <h3>Articles in Journals</h3>
+
+          <p>"Making Love in English" Language in Psychotherapy with Immigrant Women. <em>Women and Therapy</em> (Special issue on therapy with immigrant women), 2013.</p>
+          <p>"An Illness We Catch From American Women?" The Multiple Identities of Latina Lesbians, <em>Women and Therapy</em>, (35)1-2, 45-56, 2012.</p>
+          <p>"The enduring popularity of Rosa de Lima, first saint of the Americas: Women, bodies, sainthood, and national identity." <em>Cross Currents</em>, 61(1), 6-27. Spring. (Journal of the Association for Religion in Intellectual Life), 2011.</p>
+          <p>'"The destiny of this people is my own': Edith Stein&rsquo;s paradoxical sainthood." <em>Cross Currents, 58</em> (1), 117-148. Spring. (Journal of the Association for Religion in Intellectual Life), 2008.</p>
+          <p>"How Joan of Arc saved my life." <em>Psychotherapy Networker, 28</em>(3), 95-96, 2004.</p>
+          <p>"The role of gender and emotion in women's experience of migration." <em>Innovation: The European Journal of Social Sciences, 10</em> (4), 445-455, 1997.</p>
+          <p>"'Race,' racism, and sexuality in the life narratives of immigrant women." <em>Feminism and Psychology, 5</em> (2), 287-302, 1995.</p>
+          <p>"Giving voice to silence: The psychologist as witness." <em>American Psychologist, 48</em> (4), 408-414, 1993.</p>
+          <p>"Roots uprooted: The psychological effect of historical dislocation on the lives of refugee women." <em>Women and Therapy, 13</em> (1/2), 19-32, 1992.</p>
+          <p>"Spiritual power and the mundane world: Hispanic female healers in the urban U.S. communities." <em>Women Studies Quarterly, 16</em> (3-4), 33-47, 1988.</p>
+          <p>"Psychological impact of migration on Latinas: Implications for psychotheraputic practice." <em>Psychology of Women Quarterly, 11</em> (4), 489-503, 1987.</p>
+          <p>With Stewart, A.J. &amp; Gomez, C. "Letters from V.: Adolescent personality development in sociohistorical context." <em>Journal of Personality, 58</em> (2), 347-364, 1990.</p>
+
+        </div>
+        <div class="medium-2 large-2 column">&nbsp;</div>
+      </div>
+
+      <!-- photo block - 1 photo, full width -->
+      <div class="row column">
+        <figure>
+          <img src="images/wide-harbor-view.jpg" alt="" />
+          <figcaption>This is a caption.</figcaption>
+        </figure>
+      </div>
+
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">
+
+          <!-- conferences, selected papers presented at professional meetings -->
+
+          <a name="papers"></a><h2>Selected Papers Presented at Professional Meetings</h2>
+          <h3>National</h3>
+
+          <p>(2016, August). <em>A new look at the psychology of migration. (Symposium: Cultural Transformation: Challenges to Psychological Science).</em>  American Psychological Association. Denver, CO.</p>
+          <p>(2015, August). <em>A geography of memory- A psychology of place. (Symposium: Gendered Journeys: Women, Migration and feminist Psychology).</em> American Psychological Association. Toronto, ON, Canada.</p>
+          <p>(2015, March). <em>Psychotherapy as a tool of restorative justice (Symposium: Feminist interventions and restorative justice:  Research, reflexivity, therapy and performance).</em> Association for Women in Psychology. San Francisco, CA.</p>
+          <p>(2014, August). <em>Reflections on Weaving the Personal, Theoretical, and Professional in Psychology. Symposium: Immigration and LGBTQ Issues—The Legacies of Professor Oliva Esp&iacute;n.</em> American Psychological Association, Washington, D.C.</p>
+          <p>(2014, August) <em>Psychology Without Borders-A Roundtable Discussion on International Teaching, Research, and Service.</em> American Psychological Association, Washington, D.C.</p>
+          <p>(2013, March). <em>Language in Psychotherapy with Immigrant Women.</em> Association for Women in Psychology. Salt Lake City, UT.</p>
+          <p>with Perilla, J., Shapiro, E. &amp; Stephens, D. (2013, January). <em>Integrating the Personal and Social Voices of Latinas in Feminist Therapy.</em>  National Multicultural Conference and Summit. Houston, TX. (Symposium)</p>
+          <p>(2012). <em>&ldquo;An Illness We Catch From American Women&rdquo;? The Multiple Identities of Latina Lesbians.</em> Association for Women in Psychology, Palm Springs, CA.</p>
+          <p>(2011). <em>You Are Not One But Many: Intersectionality in Real Life.</em> American Psychological Association, San Diego, CA.</p>
+          <p>(2008, November). <em>My &ldquo;friendship&rdquo; with Latin American women saints as a source of spiritual strength.</em> National Latino/a Psychological Association, Costa Mesa, California.</p>
+          <p>(2007, August). <em>Women saints as a source of female spirituality.</em>  American Psychological Association, San Francisco, California.</p>
+          <p>(2007, August). <em>Activism, spirituality, and migration experiences of women.</em> American Psychological Association, San Francisco, California.</p>
+
+          <p>(2007, March). <em>Memory, identity, and&nbsp; the feminist self.</em> Association for Women in Psychology. San Francisco, California.</p>
+          <p>(2006, August). <em>Psychotherapy and Social Justice</em>. Rosallee Weiss Award Address. American Psychological Association, New Orleans, LA.</p>
+          <p>(2006, March). <em>A feminist look at the kaleidoscope of identity</em>. Association for Women in Psychology, Ann Arbor, Michigan. (Keynote address).</p>
+          <p>(2005, January). <em>The age of the cookie cutter has passed: Contradictions in identity at the core of therapeutic intervention</em>. National Multicultural Conference and Summit IV. Los Angeles, CA.</p>
+          <p>(2001, August). <em>The language of the soul: Psychotherapy with women across cultures.</em> American Psychological Association, San Francisco, CA.</p>
+          <p>(1998, June). <em>Heavenly inspirations: A psychological and feminist study of the lives of selected women saints</em>. National Women's Studies Association, Oswego, NY.</p>
+          <p>(1996, November). <em>Latina women: Sexuality, migration, and language</em>. Society for the Scientific Study of Sexuality. Houston, TX.</p>
+          <p>(1992, August). <em>Giving voice to silence: The psychologist as witness</em>. American Psychological Association, Washington, D.C. (Invited address).</p>
+          <p>(1991, August). <em>Ethnicity, race and class, and the future of feminist psychology</em>. American Psychological Association, San Francisco, CA. (Invited address).</p>
+          <p>with Dottolo, A. (1998, August). <em>Edith Stein's visions of womanhood</em> (Symposium on <em>Women Saints: Feminist and Psychological Perspectives on their Lives</em>). American Psychological Association, San Francisco, CA.</p>
+
+        </div>
+        <div class="medium-2 large-2 column">&nbsp;</div>
+      </div>
+
+      <!-- photo block - 2 photos, side-by-side -->
+      <div class="row">
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/havana-dilapidated.jpg" alt="" />
+            <figcaption>This is a caption for photo A.</figcaption>
+          </figure>
+        </div>
+        <div class="medium-6 large-6 columns">
+          <figure>
+            <img src="images/havana-capitol-2.jpg" alt="" />
+            <figcaption>This is a caption for photo B.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-2 large-2 column">&nbsp;</div>
+        <div class="medium-8 large-8 columns main">
+
+          <!-- international -->
+          <h3>International</h3>
+
+          <p>(2016, February). <em>Mystic resonances: Teresa, Santa Rosa, and the Beatas of Lima. Transverberations: Iberian Mysticism in Global Context.</em> University of  Manchester, UK.</p>
+          <p>(2012, October). <em>"Making love in English:" The psychological impact of living in two languages.</em> Lakeland College, Tokyo, Japan.</p>
+          <p>(2010, December). <em>The Love of God as Teresa of Avila's Source of Authority.</em> University of Orebro, Sweden.</p>
+          <p>(2010, October). <em>The Interplay of Criollo Identity, Colonial Politics, and Gender in the Enduring Popular Appeal of Rose of Lima.</em> VIIth International AISSCA Conference: Hagiography and Popular Cultures. University of Verona, Italy.</p>
+          <p>(2010, October). <em>Gender Issues in the Immigration Crisis.</em> University of Calabria, Italy.</p>
+          <p>(2010, June). <em>Crossing borders and boundaries: Gender and sexuality in the life narratives of immigrant women.</em> University of Hildesheim, Germany.</p>
+          <p>(2010, June). <em>Is Domestic violence a cultural tradition?...and other questions about gender and migration.</em> U.S. Embassy and Women without Borders, Vienna, Austria.</p>
+          <p>(2010, March). <em>A Psychology of Immigrant and Refugee Women.</em> University of Klagenfurt, Austria.</p>
+          <p>(2010, March). <em>Lessons from the strengths of the marginalized.</em> International Forum on Moroccan Women - Marginalized Women and Social Insertion, Fez, Morocco.</p>
+          <p>(2010, March). <em>Female saints: Submissive or rebellious? Feminists in disguise?</em> University of Innsbruck, Austria.</p>
+          <p>(2008, July). <em>G&eacute;nero y migraci&oacute;n [Gender and migration]</em>. Mundo de Mujeres/Women&rsquo;s World Congress. Madrid, Spain.</p>
+          <p>(2007, July). <em>Respuestas de la psicolog&iacute;a feminista a cuestiones de migraci&oacute;n, g&eacute;nero y orientaci&oacute;n sexual [Feminist psychology responds to issues of immigration, gender, and sexual orientation]</em>. Interamerican Congress of Psychology, M&eacute;xico, DF.</p>
+          <p>(2006, November). <em>Lenguaje, G&eacute;nero y Migraci&oacute;n</em> [<em>Language, Gender, and Migration</em>]. Encuentro Nacional de Investigaci&oacute;n Educativa, Instituto Michoacano de Ciencias de la Educaci&oacute;n, Morelia, M&eacute;xico.</p>
+          <p>(2004, November). <em>Impacto de la experiencia de migraci&oacute;n en la sexualidad de las mujeres</em> [Impact of the migration experience on women's sexuality]. Universidad Complutense, Madrid, Spain.</p>
+          <p>(2004, July). <em>Global migrations and body transformations: Changes in appearance and clothing as gender markings of assimilation or resistance</em>. Feminism Contesting Globalisation Conference, University of Dublin, Ireland.</p>
+          <p>(2003, September). <em>Mujer, cuerpo y santidad en Am&eacute;rica Latina</em> [<em>Women, body, and sanctity in Latin America</em>]. Congreso Internacional &quot;Cuerpo, Saberes y Naci&oacute;n: Constituci&oacute;n de Identidad de G&eacute;nero en lo P&uacute;blico y lo Privado en Am&eacute;rica Latina&quot; [International Conference &quot;Bodies, Knowledges, and Nationhood: The Construction of Gender Identity in the Public and Private Spheres in Latin America.&quot;], Santiago de Chile.</p>
+          <p>(2003, September). <em>G&eacute;nero, derechos humanos y volencia dom&eacute;stica</em> [<em>Gender,human rights, and domestic violence</em>], Congreso Internacional sobre &#8220;Cuerpo, Saberes y Naci&oacute;n: Constituci&oacute;n de Identidad de G&eacute;nero en lo P&uacute;blico y lo Privado en Am&eacute;rica Latina [International Conference on &#8221;Bodies, Knowledges, and Nationhood: The Construction of Gender Identity in the Public and Private Spheres in Latin America.&#8221;], Santiago de Chile.</p>
+          <p>(2001, July). <em>Qualitative Research Methods in Gender Studies</em>. InterAmerican Congress of Psychology, Santiago de Chile.</p>
+          <p>(2000, July). <em>Rosa de Lima, first saint of the Americas: Women, sainthood, and community in early colonial Latin America</em>. International Hagiography Conference: "Saints and Communities", Groeningen, The Netherlands.</p>
+          <p>(1998, April). <em>Rosa de Lima and Mariana de Quito: Women, body, and sanctity in the 16th and 17th centuries</em>. Conferencia Internacional "En el Umbral del Milenio" [International Conference "At the Threshold of the Millennium"], Lima, Per&uacute;.</p>
+          <p>(1996, July). <em>The role of gender and emotion in women's experience of migration</em>. Euroconference: Identit&eacute;s Collectives et R&eacute;presentation Symbolique [Euroconference on Collective Identity and Symbolic Representation], Paris, France.</p>
+          <p>(1994, December). <em>Crossing borders and boundaries: The vicissitudes of gender, sexuality, identity, and language in the life narratives of immigrant women</em>. Multikulturelt samfund og etnisk identitet Konference [Conference on Multicultural Research in Ethnic Identity], University of Odense and Samkvind [Center form Women's Studies in the Social and Legal Sciences], University of Copenhagen, Denmark.</p>
+          <p>(1994, June). <em>Crossing borders and boundaries: Life narratives of immigrant women and the development of identity</em>. Conference on Immigration, Language Acquisition, and Social Integration, Jerusalem, Israel.</p>
+          <p>(1989, July). <em>Migration and psychotherapy: The experience of Latin American women</em>. Interamerican Congress of Psychology, Buenos Aires, Argentina.</p>
+          <p>(1987, July). <em>A longitudinal study on the psychological development of Latin American women</em>. Interamerican Congress of Psychology, Havana, Cuba.</p>
+
+        </div>
+        <div class="medium-2 large-2 column">
+          &nbsp;
+        </div>
+      </div>
+
+    <!-- End Content
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    </div>
+
+	<!-- Close Off-Canvas Wrapper
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </div>
-	<div class="one column"></div>
-</div>
 </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/what-input.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+  $(document).foundation();
+</script>
 </body>
 </html>
