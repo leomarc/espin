@@ -69,6 +69,8 @@ figcaption {
   display: none; /*temporary until captions are written*/
 }
 
+figcaption.mp-show {display: block;}
+
 hr.secondary {
   position: relative;
   top: 15px;
