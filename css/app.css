@@ -66,7 +66,7 @@ figcaption {
   font-size: 2rem;
   line-height: 1;
   text-align: center;
-  display: none; /*temporary until captions are written*/
+  /*display: none; temporary until captions are written*/
 }
 
 figcaption.mp-show {display: block;}
